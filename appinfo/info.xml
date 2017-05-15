@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://192.168.0.67/schema/apps/info.xsd">
+    <id>voip_as-master</id>
+    <name>Voip AS</name>
+    <summary>My Own Voip</summary>
+    <description>My Own Voip</description>
+    <version>8.8.2</version>
+    <licence>agpl</licence>
+    <author>XiaodiJiang</author>
+    <category>multimedia</category>
+    <bugs>https://github.com/XiaodiJiang/voip_as/issues</bugs>
+    <dependencies>
+        <!-- owncloud tag is required on Nextcloud 9 and 10 -->
+        <owncloud min-version="9.1"/>
+        <nextcloud min-version="10"/>
+    </dependencies>
+</info>
